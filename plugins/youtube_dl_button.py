@@ -213,7 +213,7 @@ async def youtube_dl_call_back(bot, update):
                 message_id=update.message.message_id
             )
             # get the correct width, height, and duration for videos greater than 10MB
-            # ref: message from @BotSupport
+            # ref: message from @Movies_hunt_2022
             width = 0
             height = 0
             duration = 0
@@ -329,9 +329,9 @@ async def youtube_dl_call_back(bot, update):
             media_album_p = []
             if images is not None:
                 i = 0
-                caption = "© @MoviesFlixers_DL"
+                caption = "© @Movies_hunt_2022"
                 if is_w_f:
-                    caption = "/upgrade to Plan D to remove the watermark\n© @MoviesFlixers_DL"
+                    caption = "/upgrade to Plan D to remove the watermark\n© @Movies_hunt_2022"
                 for image in images:
                     if os.path.exists(image):
                         if i == 0:
