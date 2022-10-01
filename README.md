@@ -10,9 +10,22 @@ An Open Source ALL-In-One Telegram RoBot, that can do lot of things.
 
 ### Installation
 
-#### The Easy Way
+## Deploy
+You can deploy this bot anywhere.
 
-[![Deploy To Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)</br>
+
+<details><summary>Deploy To VPS</summary>
+<p>
+<pre>
+git clone https://github.com/DKBOTx/TovinoBotV3
+# Install Packages
+pip3 install -U -r requirements.txt
+Edit info.py with variables as given below then run bot
+python3 bot.py
+</pre>
+</p>
+</details>
 
 #### The Hard Way
 
